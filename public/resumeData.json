@@ -1,163 +1,134 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Duong Dinh",
+    "occupation":"Junior Web Developer",
+    "description":"A hard-working junior web developer having 2 years of experience in developing user. Interface application, with a flair for creating elegant solutions and web interface. Developed an e-commerce web app, hotel resort with room selection web portal, familiar with MERN stack. Passionate about software architecture and a spirit to learn new things. Seeking opportunities and guidance from experienced senior developers.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"A hard-working junior web developer having 2 years of experience in developing user. Interface application, with a flair for creating elegant solutions and web interface. Developed an e-commerce web app, hotel resort with room selection web portal, familiar with MERN stack. Passionate about software architecture and a spirit to learn new things. Seeking opportunities and guidance from experienced senior developers.",
+    "contactmessage":"Feel free to contact me via email or phone",
+    "email": "ulrich.dinh168@gmail.com",
+    "phone": "+358 465666696",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Espoo",
+      "zip": "02600"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
+        "url":"http://facebook.com",
         "className":"fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/duong-dinh-10b391106/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/UlrichDinh168",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Turku University of Applied Sciences",
+        "degree":"Bachelor's Degree in Infomation and Communication Technology"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"The Firma | Toimipiste",
+        "title":"Front-end developer",
+        "years":"June 2020 - July 2020",
+        "description":"Managing weekly meetings and dividing tasks between members through Trello. Discussing and fixing bugs through weekly reports"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"The Firma",
+        "title":"UI developer",
+        "years":"June 2018 - September 2018",
+        "description":"Using AdobeXD to design an client application interfaces for reporting bully activities among children throughout schools. Answering client's requesting regarding updates and product delivery. Providing ideas and frameworks, instructions, documents, etc to make a prototype becomes actual product."
+      },
+      {
+        "company":"The Firma | Capstone Turkuamk",
+        "title":"Front-end developer",
+        "years":"October 2017 - March 2018",
+        "description":"University curriculum: Innovation Project. Adding features and renovate Capstone Turkuamk website using Wordpress/PHP. Implementing and enhance visual using CSS3 and JavaScript. Optimizing codebase by using ES6 features"
+      },
+      {
+        "company":"Turkuamk | The SHIFT Festival",
+        "title":"Front-end UI developer",
+        "years":"October 2017 - February 2018",
+        "description":"University curriculum: SHIFT Business Festival. Increased customer satisfaction and implemented Agile development process."
+      },
+      {
+        "company":"Turkuamk | Turku Student Ambassador",
+        "title":"Front-end UI developer",
+        "years":"January 2017 - December 2017",
+        "description":"University Project: Turku Student Ambassador Website. Enhancing visual appreanace of Turku Student Ambassador Website. Applying optimization to project's codebase using ES6 features. Creating documents for upcomming website's manager"
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
+        "name":"HTML/CSS/JavaScript",
         "level":"80%"
       },
       {
-        "name":"VueJs",
+        "name":"Sass",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"Redux",
+        "level":"50%"
+      },
+      {
+        "name":"TypeScript",
+        "level":"50%"
+      },
+      {
+        "name":"NodeJS",
         "level":"50%"
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"50%"
+      },
+      {
+        "name":"Firease",
+        "level":"50%"
+      },
+      {
+        "name":"Express",
+        "level":"50%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Resort Room Selection",
+        "category":"A simple hotel-like website built using React, React Context, CSS, database stored in Contentful, and deploy using netlify",
+        "image":"resort.jpeg",
+        "url":"https://resort-ulrich.netlify.app"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Food API Fetching",
+        "category":"A simple website applies API fetching",
+        "image":"food.jpg",
+        "url":"https://ulrich-food-api.netlify.app"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"Weather API Fetching",
+        "category":"A simple API fetching for weather",
+        "image":"weather.png",
+        "url":"https://weather-ulrich.netlify.app/"
       }
     ]
   }
