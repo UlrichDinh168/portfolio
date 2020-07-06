@@ -4,9 +4,7 @@ class Contact extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
-      var street = this.props.data.address.street;
       var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
       var email = this.props.data.email;
@@ -28,7 +26,7 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="eight columns">
+          <div className="ten columns">
             <form action="" method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
@@ -41,6 +39,7 @@ class Contact extends Component {
                     size="35"
                     id="contactName"
                     name="contactName"
+                    placeholder="Your name.."
                     onChange={this.handleChange}
                   />
                 </div>
@@ -55,18 +54,7 @@ class Contact extends Component {
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
-                    onChange={this.handleChange}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactSubject"
-                    name="contactSubject"
+                    placeholder="Your email.."
                     onChange={this.handleChange}
                   />
                 </div>
@@ -80,6 +68,7 @@ class Contact extends Component {
                     rows="15"
                     id="contactMessage"
                     name="contactMessage"
+                    placeholder="Your message :D"
                   ></textarea>
                 </div>
 
@@ -91,22 +80,22 @@ class Contact extends Component {
                 </div>
               </fieldset>
             </form>
-
+            {/* Error message */}
             <div id="message-warning"> Error boy</div>
             <div id="message-success">
               <i className="fa fa-check"></i>Your message was sent, thank you!
               <br />
             </div>
           </div>
-
-          <aside className="four columns footer-widgets">
+          {/* sides */}
+          <aside className="two columns footer-widgets">
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
                 {name}
                 <br />
-                {street} <br />
-                {city} {state} {zip}
+                {email} <br />
+                {city} {zip}
                 <br />
                 <span>{phone}</span>
               </p>
