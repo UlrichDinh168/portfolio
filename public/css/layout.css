@@ -342,35 +342,67 @@ ul#nav li.current a {
   margin-top: 36px;
   list-style: none;
 }
+/* .bars .skills .percentage {
+  color: #313131;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: 750;
+} */
 .bars li {
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
   background: #ccc;
-  height: 42px;
-  border-radius: 3px;
+  height: 2.5rem;
+  border-radius: 0.3rem;
 }
 .bars li em {
-  font: 15px "opensans-bold", sans-serif;
+  font: 1.5rem "opensans-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   font-weight: normal;
   position: relative;
-  top: -36px;
+  top: -3.6rem;
 }
-.bar-expand {
+/* .bar-expand {
   position: absolute;
-  left: 0;
-  top: 0;
-
+  left: .2em;
+  top: .3em;
+  box-shadow: 0 0 1rem #1c354db3;
   margin: 0;
-  padding-right: 24px;
+  padding-right: 2.4rem;
   background: #313131;
   display: inline-block;
-  height: 42px;
-  line-height: 42px;
-  border-radius: 3px 0 0 3px;
-}
+  height: 1.5rem;
+  line-height: 4.2rem;
+  border-radius: .3rem 0 0 .3rem;
+  animation: moveInLeft 1s forwards;
+  animation-delay: 0.2s;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 1rem;
+  max-width: calc(100% - .1em);
+} */
+
+/* @keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    width: 0%;
+  }
+
+  80% {
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 1;
+    width: var(--width);
+    transform: translateX(0);
+  }
+} */
+
+
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -983,7 +1015,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11abb0;
+  background-color: #000000;
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -1032,23 +1064,7 @@ call-to-action .button {
   top: 17px;
 }
 
-/* Twitter Feed */
-#twitter {
-  margin-top: 12px;
-  padding: 0;
-}
-#twitter li {
-  margin: 6px 0px 12px 0;
-  line-height: 30px;
-}
-#twitter li span {
-  display: block;
-}
-#twitter li b a {
-  font: 13px/36px "opensans-regular", Sans-serif;
-  color: #474747 !important;
-  border: none;
-}
+
 
 /* ------------------------------------------------------------------ */
 /* i. Footer

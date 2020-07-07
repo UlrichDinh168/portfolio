@@ -28,44 +28,46 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
-        let className = "barExpand " + skills.name.toLowerCase();
-        const moveInLeft = keyframes` 
-          0% {
-            opacity: 0;
-            transform: translateX(0);
-            width: 0%;
-          }
-  
-          100% {
-            opacity: 1;
-            width: 1000px;
-            transform: translateX(0);
-          }
-        }`;
 
-        className = styled.span`
-          position: absolute;
-          left: .2em;
-          top: .3em;
-          box-shadow: 0 0 1rem #1c354db3;
-          margin: 0;
-          padding-right: 2.4rem;
-          background: #313131;
-          display: inline-block;
-          height: 1.5rem;
-          line-height: 4.2rem;
-          border-radius: .3rem 0 0 .3rem;
-          animation: ${moveInLeft} 1s forwards;
-          min-width: 1rem;
-          max-width: calc(100% - .1em);
-        }`;
-        // let width = "skills-bar" + skills.level;
+      var skills = this.props.data.skills.map(function (skill) {
+        let className = "barExpand " + skill.name.toLowerCase();
+        const moveInLeft = keyframes` 
+        0% {
+          opacity: 0;
+          width: 0%;
+        }
+
+        100% {
+          opacity: 1;
+          width: ${skill.level};
+        }
+      }`;
+
+        const Span = styled.span`
+        position: absolute;
+        left: .2em;
+        top: .3em;
+        box-shadow: 0 0 1rem #1c354db3;
+        margin: 0;
+        padding-right: 2.4rem;
+        background: #313131;
+        display: inline-block;
+        height: 1.5rem;
+        line-height: 4.2rem;
+        border-radius: .3rem 0 0 .3rem;
+        animation: ${moveInLeft} 1s forwards;
+        min-width: 1rem;
+        max-width: calc(100% - .1em);
+      }`;
+
+        // style={{ width: skills.level }}
         return (
-          <li key={skills.name}>
-            <span className={className}></span>
+          <li key={skill.name}>
+            <Span>
+              <span className={className}></span>
+            </Span>
             {/* <span className="percentage">{skills.level}</span> */}
-            <em>{skills.name}</em>
+            <em>{skill.name}</em>
           </li>
         );
       });

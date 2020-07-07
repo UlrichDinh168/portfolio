@@ -4,7 +4,7 @@
     "occupation":"Junior Web Developer",
     "description":"A hard-working junior web developer having 2 years of experience in developing user. Interface application, with a flair for creating elegant solutions and web interface. Developed an e-commerce web app, hotel resort with room selection web portal, familiar with MERN stack. Passionate about software architecture and a spirit to learn new things. Seeking opportunities and guidance from experienced senior developers.",
     "image":"profilepic.jpg",
-    "bio":"I am finishing my degree in Web development from Turku University of Applied Sciences. I am quite focused on making my career in the Web development sector, especially in creating Web pages with feature-rich user experience and a beautiful interface. Besides, although I am an entry level candidate, I have solid knowledge about the core fundamentals of Web technology (HTML, CSS, and JavaScript) and React as well as some of the related software. In addition to my studies, I have been engaged in web development a long time ago as an amateur and, due to the interaction with a website called Awwwards contingently, it inspired me to become an autodidact web developer. I have tutored to develop web-based applications such as e(commercial, hotel room selection, and a replicated social network, etc. from design to coding and full implementation under the help of my online tutors.",
+    "bio":"My name is Duong Dinh. I am finishing my degree in Web development from Turku University of Applied Sciences. I am quite focused on making my career in the Web development sector, especially in creating Web pages with feature-rich user experience and a beautiful interface. Besides, although I am an entry level candidate, I have solid knowledge about the core fundamentals of Web technology (HTML, CSS, and JavaScript) and React as well as some of the related software. In addition to my studies, I have been engaged in web development a long time ago as an amateur and, due to the interaction with a website called Awwwards contingently, it inspired me to become an autodidact web developer. I have tutored to develop web-based applications such as e(commercial, hotel room selection, and a replicated social network, etc. from design to coding and full implementation under the help of my online tutors.",
     "contactmessage":"Feel free to contact me via email or phone.",
     "email": "ulrich.dinh168@gmail.com",
     "phone": "+358 465666696",
@@ -81,12 +81,16 @@
         "level":"60%"
       },
       {
-        "name":"React",
+        "name":"Styled Components",
         "level":"60%"
       },
       {
+        "name":"React",
+        "level":"65%"
+      },
+      {
         "name":"Redux",
-        "level":"50%"
+        "level":"55%"
       },
       {
         "name":"TypeScript",
@@ -94,7 +98,7 @@
       },
       {
         "name":"NodeJS",
-        "level":"50%"
+        "level":"60%"
       },
       {
         "name":"MongoDB",
@@ -106,7 +110,7 @@
       },
       {
         "name":"Express",
-        "level":"50%"
+        "level":"60%"
       }
     ]
   },
