@@ -2,6 +2,15 @@ import React, { useState } from "react";
 
 const Contact = ({ data }) => {
 
+  const [data, setData] = useState({
+    name:'',
+    lastname:'',
+    email:'',
+    message:'',
+    sent:false,
+    buttonText: 'Send Message',
+  })
+
   if (data) {
     var name = data.name;
     var city = data.address.city;
@@ -11,12 +20,14 @@ const Contact = ({ data }) => {
     var message = data.contactmessage;
   }
 
-  const handleChange = () => {
-
+  const handleChange = e => {
+    setData({[e.target.name]: e.target.value})
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = e => {
+    e.preventDefault();
     
+    const {name, email, message} = data
   }
 
   return (
