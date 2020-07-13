@@ -133,6 +133,12 @@
         "category":"A simple API fetching for weather",
         "image":"weather.png",
         "url":"https://weather-ulrich.netlify.app/"
+      },
+      {
+        "title":"Online Chat Application",
+        "category":"Realtime chat application",
+        "image":"realtime-chat-app.png",
+        "url":"https://chat-app-ulrich.netlify.app/"
       }
     ]
   }
