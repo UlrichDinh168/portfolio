@@ -139,6 +139,12 @@
         "category":"Realtime chat application",
         "image":"realtime-chat-app.png",
         "url":"https://chat-app-ulrich.netlify.app/"
+      },
+      {
+        "title":"Covid-19 API Tracker",
+        "category":"Covid-19 API Tracker",
+        "image":"realtime-chat-app.png",
+        "url":"https://covidometer.netlify.app/"
       }
     ]
   }
